@@ -8,7 +8,7 @@ const balance = new Number(400)
 
 // console.log(balance.toString().length);
 // console.log(balance.toFixed(4));
-
+ 
 const newNumber = 23.8964
 const newNumber1 = 1223.2564
 const newNumber2 = 10000000
