@@ -18,3 +18,6 @@ let x = 33
 let stringNumber = String(x)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+
+// operations
