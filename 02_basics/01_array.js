@@ -29,14 +29,15 @@ newArr.shift(33)  // remove a value at the Start of array
 // console.log(typeof newArr);
 // console.log(typeof myArr);
 
-const newArray = [0,4,5,7,8]
-console.log("A - ", newArray);
 
-const a1 = newArray.slice(0,3)
-console.log("B", a1);
-console.log("After Slice method", newArray);
+// const newArray = [0,4,5,7,8]
+// console.log("A - ", newArray);
 
-const a2 = newArray.splice(0,3)
-console.log("C", a2);
-console.log("After Splice method", newArray);
+// const a1 = newArray.slice(0,3)
+// console.log("B", a1);
+// console.log("After Slice method", newArray);
+
+// const a2 = newArray.splice(0,3)
+// console.log("C", a2);
+// console.log("After Splice method", newArray);
 
