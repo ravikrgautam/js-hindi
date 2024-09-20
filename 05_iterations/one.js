@@ -20,7 +20,7 @@ map.set('FR', "Franch")
 
 for (const [key, value] of map) {           //for of loop
 //    console.log(key, value);
-//    console.log(key, ' : ', value);    
+   console.log(key, ' : ', value);    
 }
 
 const myObject = {
@@ -28,4 +28,4 @@ const myObject = {
     'game2' : 'Temple Run'
 }
 
-console.log(myObject);
+// console.log(myObject);
