@@ -5,7 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: #212121; color: #fff;">
     
+    <h1>set time or set interval</h1>
+    <button id="stop">Stop</button>
+
 </body>
+    <script>
+
+        const sayName = function(){
+            console.log("Javascript course");
+        }
+
+        const changeText = function(){
+            document.querySelector('h1').innerHTML = "Best JS Series"
+        }
+
+        // setTimeout(sayName, 2000)
+        const changeMe = setTimeout(changeText, 2000)
+
+        document.querySelector('#stop').addEventListener('click', function(){
+            clearTimeout(changeMe)
+            console.log("Stopped");
+            
+        })
+
+    </script>
 </html>
